@@ -34,8 +34,40 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 
 let marks = BigInt(22);
-console.log(typeof(marks));
+// console.log(typeof(marks));
 let marksInString = String(marks);
-console.log(typeof(marksInString));
-console.log(marks);
+// console.log(typeof(marksInString));
+// console.log(marks);
+
+
+/*------------Operations------------*/
+
+let age = 24;
+let ageInNegative = -age;
+// console.log(ageInNegative);
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 / 2);
+// console.log(2 * 2);
+// console.log(3 % 2);
+// console.log(2 ** 3);
+
+/*
+Note: In javaScript  the order of evaluating the expressions is from right to left
+*/
+// console.log(2 + "2");
+// console.log("2" + 2);
+// console.log("2" + 1 + 1);
+// console.log(1 + 1 + "2");
+
+let exp = 2;
+let num1 = null,num2 = null;
+// console.log(typeof(num1));
+// console.log(typeof(num2));
+// console.log(num1 + num2);
+
+//console.log(true);
+//console.log(+true);
+//console.log(true+);
 
