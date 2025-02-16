@@ -31,6 +31,26 @@ const myDataObj = {
 const greet = function(name) {
     console.log("Hello",name);
 };
-greet("Gireesh");
+//greet("Gireesh");
 //console.log(typeof greet("Gireesh")); // undefined - data type that is returned from the function
-console.log(typeof greet); //function object
+// console.log(typeof greet); //function object
+
+
+/* Stack(primitive) and Heap (non-primitive)*/
+
+let userOneEmail = "abc@gmail.com";
+let userTwoEmail = userOneEmail; //here it goes as pass by value
+userTwoEmail = "xyz@gmail.com";
+// console.log(userOneEmail);
+// console.log(userTwoEmail);
+
+let userOne = {
+    emailId : "abc@gmail.com",
+    password : 123
+};
+
+let userTwo = userOne;
+userTwo.emailId = "xyz@gmail.com";
+console.log(userOne.emailId);
+console.log(userTwo.emailId);
+
