@@ -28,4 +28,5 @@ console.log(url.indexOf('z'));
 .startsWith(<charecter string>) && .endsWith(<charecter string>)// return boolean
 .startTrim() && .endTrim().
 .toUpperCase() && .toLowerCase();
+.split(<delimiter>) - returns a array
 */
